@@ -3,7 +3,7 @@ import time ### BIBLIOTECA PARA TEMPO DE EXECUÇÃO
 
 inicio = time.time() #>>> iniciar contagem do tempo
 
-def permute(data, i, length): #>>> laço que realiza a permutação
+def permute(data, i, length): #>>> realizar permutação
     if i == length:
         print(''.join(data))
     else:
